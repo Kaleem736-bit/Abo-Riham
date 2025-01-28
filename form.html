@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقديم طلب تأشيرة</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>تقديم طلب تأشيرة</h2>
+        <form action="#" method="POST">
+            <div class="mb-3">
+                <label for="fullName" class="form-label">الاسم الكامل</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+            <div class="mb-3">
+                <label for="passportNumber" class="form-label">رقم الجواز</label>
+                <input type="text" class="form-control" id="passportNumber" name="passportNumber" required>
+            </div>
+            <div class="mb-3">
+                <label for="visaType" class="form-label">نوع التأشيرة</label>
+                <select class="form-select" id="visaType" name="visaType" required>
+                    <option value="زيارة">زيارة</option>
+                    <option value="عمل">عمل</option>
+                    <option value="سياحة">سياحة</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+        </form>
+    </div>
+</body>
+</html>
